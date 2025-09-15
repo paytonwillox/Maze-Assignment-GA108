@@ -9,7 +9,7 @@ public class startscript : MonoBehaviour
 
     void Start()
     {
-        Button btn = startscript.GetComponent <button> ();
+        Button btn = startbutton.GetComponent <Button> ();
         btn.onClick.AddListener(TaskOnClick);
     }
 
